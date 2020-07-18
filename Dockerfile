@@ -4,9 +4,7 @@ MAINTAINER lixuan2001@gmail.com
 USER root
 
 RUN mkdir /opt/tomcat/
-# RUN sudo 
 WORKDIR /opt/tomcat
-# RUN curl -O https://www-eu.apache.org/dist/tomcat/tomcat-8/v8.5.40/bin/apache-tomcat-8.5.40.tar.gz
 RUN curl -O https://downloads.apache.org/tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.tar.gz
 RUN tar xvfz apache*.tar.gz
 RUN mv apache-tomcat-8.5.56/* /opt/tomcat/.
