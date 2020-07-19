@@ -1,6 +1,6 @@
 branch-defaults:
   default:
-    environment: null
+    environment: ebtomcat-dev
     group_suffix: null
 environment-defaults:
   ebtomcat-dev:
