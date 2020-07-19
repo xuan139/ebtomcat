@@ -1,7 +1,7 @@
 FROM centos
 
 MAINTAINER lixuan2001@gmail.com
-USER root
+# USER root
 
 RUN mkdir /opt/tomcat/
 WORKDIR /opt/tomcat
